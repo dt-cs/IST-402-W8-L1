@@ -2,6 +2,8 @@
 
 ### Group 10 - Deebak, Andreea, Tsehynesh
 
+---
+
 ### Overview
 
 This assignment involved utilizing a pre-built Python/Streamlit application, running in a Google Colab environment, to execute an **Speech-to-Image generation pipeline**. The core task was to understand the integration of different AI models and evaluate the effectiveness of complex text prompts on the resulting visual output from the Text-to-Image synthesis stage.
