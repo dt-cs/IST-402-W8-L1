@@ -67,7 +67,7 @@ The application was tested with various PDF documents, including technical paper
 
 | Uploaded PDF | Question | Retrieved Chunks | Generated Answer |
 |:---|:---|:---|:---|
-| ![](INSERT_PDF_IMAGE_URL_HERE) | “What is the main purpose of this document?” | 4 most relevant chunks extracted from PDF | “The document provides an overview of …” |
+| ![](assets/pdfqa.png) | “What is the main purpose of this document?” | 4 most relevant chunks extracted from PDF | “The document provides an overview of …” |
 
 **Analysis:**  
 The system successfully retrieves the most relevant chunks from the PDF and provides coherent answers. Minor errors occur if the answer requires cross-chunk reasoning or very specific details not explicitly present in a single chunk.
