@@ -54,7 +54,7 @@ The user interface is structured to:
 ![](assets/caption_01.png)
 
 **Analysis:**  
-The caption accurately identifies the central objects and scene context. While the main elements are captured correctly, the model tends to omit finer details such as small desk accessories or environmental lighting.
+The model's behavior is due to its lack of specialized sports domain training. It defaults to identifying only the most visually prominent, low-risk feature (the yellow jersey) to maximize confidence. Consequently, it ignores the complex action (the contested shot) and all surrounding players and context.
 
 ---
 
@@ -63,7 +63,7 @@ The caption accurately identifies the central objects and scene context. While t
 ![](assets/caption_02.png)
 
 **Analysis:**  
-BLIP successfully identifies major landscape features. However, elements such as time of day, sky details, or vegetation type may not always be included, showing that the model prioritizes large-scale features over subtle details.
+The Eiffel Tower is a globally recognized, high-confidence landmark that is heavily represented in common training datasets. The model correctly identifies and names the most visually dominant, high-confidence object, demonstrating its strength in general object and landmark recognition.
 
 ---
 
