@@ -85,3 +85,4 @@ However, BLIP from our experimentes we found that it may miss:
 The integration of BLIP with Streamlit and Ngrok provides a practical way to deploy real-time computer vision applications through a web browser. This assignment strengthened our understanding of building interactive AI tools using Streamlit and Hugging Face.
 
 These insights will be applied to our final project, where we will use Streamlit to develop the user interface of our meeting summarizer application, including features for URL input, sending email summaries, and adding events to the calendar.
+
