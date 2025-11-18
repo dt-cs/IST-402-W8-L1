@@ -22,6 +22,8 @@ The provided code establishes a functional AI application using readily availabl
 | **Transcription** | Converts audio to a string for the T2I model | `openai/whisper-tiny` |
 | **Image Synthesis** | Generates the visual output | `runwayml/stable-diffusion-v1-5` |
 
+![Alt text](assets/UI_Speech_to_image.png)
+
 ---
 
 ### Experiment
@@ -37,7 +39,7 @@ The experiment focused on how well the Stable Diffusion model interpreted highly
 
 | Image | Description |
 | :---: | :--- |
-| ![Alt text](image_url_here) | The model successfully prioritizes the **primary subject** ("Cyberpunk Medusa") and the **key color palette** (neon green hair, purple lighting). The concept of **fiber-optic cables** is interpreted as rigid, stylized coils near her head. However, the model significantly simplified the environmental and textural details: the **"rainy, futuristic Tokyo alleyway"** and **"neon signs"** were reduced to a simple, abstract purple neon background, and the requested **"gold circuitry inlays"** and **"matte porcelain skin"** are largely absent or generalized. The final image leans toward digital illustration rather than the requested **"hyper-realistic"** quality. |
+| ![Alt text](assets/ai_art_1763491308.png) | The model successfully prioritizes the **primary subject** ("Cyberpunk Medusa") and the **key color palette** (neon green hair, purple lighting). The concept of **fiber-optic cables** is interpreted as rigid, stylized coils near her head. However, the model significantly simplified the environmental and textural details: the **"rainy, futuristic Tokyo alleyway"** and **"neon signs"** were reduced to a simple, abstract purple neon background, and the requested **"gold circuitry inlays"** and **"matte porcelain skin"** are largely absent or generalized. The final image leans toward digital illustration rather than the requested **"hyper-realistic"** quality. |
 
 ---
 
@@ -45,7 +47,7 @@ The experiment focused on how well the Stable Diffusion model interpreted highly
 
 | Image | Description |
 | :---: | :--- |
-| **** | This image, generated from a separate complex prompt, illustrates a common difficulty with object fusion. While the **steampunk aesthetic** (bronze, gears, mechanical rigging) and the **sunset lighting** were successfully rendered, the model failed to combine the **"whale shape"** with the **"hot air balloon"**. It instead generated a standard, spherical balloon with mechanical accessories. Furthermore, the detailed environmental feature—the **"bioluminescent coral reef"** beneath the ocean—was not rendered in the final image, suggesting that the model often drops complex background elements when the primary subject is already highly detailed. |
+| ![Alt text](assets/ai_art_1763491537.png)  | This image, generated from a separate complex prompt, illustrates a common difficulty with object fusion. While the **steampunk aesthetic** (bronze, gears, mechanical rigging) and the **sunset lighting** were successfully rendered, the model failed to combine the **"whale shape"** with the **"hot air balloon"**. It instead generated a standard, spherical balloon with mechanical accessories. Furthermore, the detailed environmental feature—the **"bioluminescent coral reef"** beneath the ocean—was not rendered in the final image, suggesting that the model often drops complex background elements when the primary subject is already highly detailed. |
 
 ---
 
