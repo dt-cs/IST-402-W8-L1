@@ -60,7 +60,7 @@ The model's behavior is due to its lack of specialized sports domain training. I
 
 ### 2. Example Caption: Eiffel Tower
 
-![](./assets/caption_02.png)
+![](assets/caption_02.png)
 
 **Analysis:**  
 The Eiffel Tower is a globally recognized, high-confidence landmark that is heavily represented in common training datasets. The model correctly identifies and names the most visually dominant, high-confidence object, demonstrating its strength in general object and landmark recognition.
