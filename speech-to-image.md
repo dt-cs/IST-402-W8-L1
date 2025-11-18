@@ -12,8 +12,8 @@ The provided code establishes a functional AI application using readily availabl
 
 1.  **Environment Setup:** Packages like `pyngrok` and `streamlit` were used to create a publicly accessible web interface, which is a common practice for running local web apps in cloud environments like Colab.
 2.  **Model Loading:** The application loads two key AI models:
-    * **Speech-to-Text (A.S.R.):** `openai/whisper-tiny` is loaded to handle the initial conversion of uploaded audio files into a text prompt.
-    * **Text-to-Image (T2I):** `runwayml/stable-diffusion-v1-5` is loaded to take the transcribed (or manually entered) text and synthesize a corresponding image.
+    * **Speech-to-Text :** `openai/whisper-tiny` is loaded to handle the initial conversion of uploaded audio files into a text prompt.
+    * **Text-to-Image :** `runwayml/stable-diffusion-v1-5` is loaded to take the transcribed (or manually entered) text and synthesize a corresponding image.
 3.  **Execution:** The app handles user input (audio or text) and executes the `sd_model()` function with configurable parameters like `num_inference_steps` (quality) and `guidance_scale` (prompt strength).
 
 | Component | Role in Code | Model Used |
