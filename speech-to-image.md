@@ -1,5 +1,7 @@
 ## Speech-to-Image Generation Assignment Report
 
+### Group 10 - Deebak, Andreea, Tsehynesh
+
 ### Overview
 
 This assignment involved utilizing a pre-built Python/Streamlit application, running in a Google Colab environment, to execute an **Speech-to-Image generation pipeline**. The core task was to understand the integration of different AI models and evaluate the effectiveness of complex text prompts on the resulting visual output from the Text-to-Image synthesis stage.
@@ -35,7 +37,7 @@ The experiment focused on how well the Stable Diffusion model interpreted highly
 
 | Image | Description |
 | :---: | :--- |
-| **** | The model successfully prioritizes the **primary subject** ("Cyberpunk Medusa") and the **key color palette** (neon green hair, purple lighting). The concept of **fiber-optic cables** is interpreted as rigid, stylized coils near her head. However, the model significantly simplified the environmental and textural details: the **"rainy, futuristic Tokyo alleyway"** and **"neon signs"** were reduced to a simple, abstract purple neon background, and the requested **"gold circuitry inlays"** and **"matte porcelain skin"** are largely absent or generalized. The final image leans toward digital illustration rather than the requested **"hyper-realistic"** quality. |
+| ![Alt text](image_url_here) | The model successfully prioritizes the **primary subject** ("Cyberpunk Medusa") and the **key color palette** (neon green hair, purple lighting). The concept of **fiber-optic cables** is interpreted as rigid, stylized coils near her head. However, the model significantly simplified the environmental and textural details: the **"rainy, futuristic Tokyo alleyway"** and **"neon signs"** were reduced to a simple, abstract purple neon background, and the requested **"gold circuitry inlays"** and **"matte porcelain skin"** are largely absent or generalized. The final image leans toward digital illustration rather than the requested **"hyper-realistic"** quality. |
 
 ---
 
@@ -47,8 +49,8 @@ The experiment focused on how well the Stable Diffusion model interpreted highly
 
 ---
 
-### Conclusion and Key Learnings
+### Learnings
 
 Stable Diffusion v1.5 effectively captures both the subject and the artistic style, such as cyberpunk, steampunk, or digital painting, when given a detailed prompt. The integration of Whisper and Stable Diffusion within a Streamlit application demonstrates a powerful and functional prototype for a voice-controlled generative AI tool, even though the image model still has some limitations in interpreting very fine-grained details.
 
-Overall, this assignment helped us understand how to build a simple generative AI web application using Streamlit as the framework and Hugging Face as the model hub, and it has given me confidence to develop similar tools for my own use cases.
+Overall, this assignment helped us understand how to build a simple generative AI web application using Streamlit as the framework and Hugging Face as the model hub, and it has given us confidence to develop similar tools for my own use cases. Using this approach, we plan to develop our final project’s user interface with Streamlit. Our meeting summarizer application will require a UI that allows users to enter a URL, send an email, and add the meeting to their calendar. Streamlit provides the components and structure we need to build these features effectively.
