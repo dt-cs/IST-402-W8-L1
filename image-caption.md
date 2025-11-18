@@ -7,13 +7,13 @@
 
 ## Overview
 
-This assignment involved running a pre-built Python/Streamlit application inside Google Colab to implement an Image Caption Generator using the BLIP (Bootstrapping Language-Image Pre-training) model. The purpose was to explore how image captioning works, understand model integration within a Streamlit UI, and evaluate the accuracy and relevance of the generated captions.
+This task involved running a pre-built Python/Streamlit application inside Google Colab to implement an Image Caption Generator using the BLIP (Bootstrapping Language-Image Pre-training) model. The purpose was to understand the workflow of how image captioning app using Gen AI model works, understand model integration within a Streamlit UI.
 
 ---
 
-## Code Analysis
+## Code
 
-The provided code builds a functional image-captioning web application using open-source libraries. It demonstrates key concepts such as model loading, UI creation, and web exposure via ngrok.
+The provided code builds a functional image-captioning web application using open-source libraries. It demonstrates key concepts such as model loading, UI creation using Streamlit, and web exposure via ngrok.
 
 ### 1. Environment Setup
 
@@ -49,38 +49,21 @@ The user interface is structured to:
 
 ## Experiment
 
-To evaluate the BLIP model’s performance, several images were uploaded through the Streamlit interface. The objective was to observe how accurately the generated captions matched the objects, actions, and environment within the images.
+### 1. Example Caption: NBA Game image
 
-### 1. Example Caption: Indoor Object Scene
-
-| Image | Caption Output |
-|:---:|:---|
-| ![](INSERT_IMAGE_URL_HERE) | “a desk with a laptop and a cup of coffee on it” |
+![](assets/caption_01.png)
 
 **Analysis:**  
 The caption accurately identifies the central objects and scene context. While the main elements are captured correctly, the model tends to omit finer details such as small desk accessories or environmental lighting.
 
 ---
 
-### 2. Example Caption: Outdoor Landscape
+### 2. Example Caption: Eiffel Tower
 
-| Image | Caption Output |
-|:---:|:---|
-| ![](INSERT_IMAGE_URL_HERE) | “a mountain range with a lake in front of it” |
+![](assets/caption_02.png)
 
 **Analysis:**  
 BLIP successfully identifies major landscape features. However, elements such as time of day, sky details, or vegetation type may not always be included, showing that the model prioritizes large-scale features over subtle details.
-
----
-
-### 3. Example Caption: Animals
-
-| Image | Caption Output |
-|:---:|:---|
-| ![](INSERT_IMAGE_URL_HERE) | “a dog running through a grassy field” |
-
-**Analysis:**  
-The model performs well with animal images, correctly describing both the subject and its action. BLIP demonstrates strong performance when the scene has a clear primary subject and simple background.
 
 ---
 
@@ -92,7 +75,7 @@ BLIP is effective at generating coherent and relevant captions for images, espec
 - the environment is simple or easily identifiable  
 - the action is clear  
 
-However, BLIP may miss:
+However, BLIP from our experimentes we found that it may miss:
 
 - fine-grained visual details  
 - textual elements within the image  
