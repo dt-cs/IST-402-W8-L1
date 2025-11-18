@@ -51,7 +51,7 @@ The user interface is structured to:
 
 ### 1. Example Caption: NBA Game image
 
-![](assets/caption_01.png)
+![](./assets/caption_01.png)
 
 **Analysis:**  
 The model's behavior is due to its lack of specialized sports domain training. It defaults to identifying only the most visually prominent, low-risk feature (the yellow jersey) to maximize confidence. Consequently, it ignores the complex action (the contested shot) and all surrounding players and context.
@@ -60,7 +60,7 @@ The model's behavior is due to its lack of specialized sports domain training. I
 
 ### 2. Example Caption: Eiffel Tower
 
-![](assets/caption_02.png)
+![](./assets/caption_02.png)
 
 **Analysis:**  
 The Eiffel Tower is a globally recognized, high-confidence landmark that is heavily represented in common training datasets. The model correctly identifies and names the most visually dominant, high-confidence object, demonstrating its strength in general object and landmark recognition.
